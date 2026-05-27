@@ -28,13 +28,29 @@ Run the backend and frontend in two terminals.
 
 ### 1. Backend (http://localhost:8000)
 
+**macOS / Linux:**
+
 ```bash
 cd backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+python -m uvicorn main:app --reload --port 8000
 ```
+
+**Windows (PowerShell):**
+
+```powershell
+cd backend
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m uvicorn main:app --reload --port 8000
+```
+
+> Use `python -m uvicorn ...` rather than bare `uvicorn` to avoid PATH issues.
+> If PowerShell blocks activation, run `Set-ExecutionPolicy -Scope Process -Bypass`
+> first, or use `.venv\Scripts\activate.bat` in Command Prompt.
 
 ### 2. Frontend (http://localhost:5173)
 
