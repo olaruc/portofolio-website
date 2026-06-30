@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { fetchPortfolio } from "./api";
+import { useState } from "react";
+import data from "./content/portfolio.json";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
@@ -12,36 +12,7 @@ import Footer from "./components/Footer.jsx";
 import VideoModal from "./components/VideoModal.jsx";
 
 export default function App() {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
   const [activeVideo, setActiveVideo] = useState(null);
-
-  useEffect(() => {
-    fetchPortfolio().then(setData).catch((e) => setError(e.message));
-  }, []);
-
-  if (error) {
-    return (
-      <div className="loader">
-        <p style={{ color: "var(--muted)" }}>
-          Couldn't reach the API. Is the backend running on :8000?
-        </p>
-      </div>
-    );
-  }
-
-  if (!data) {
-    return (
-      <div className="loader">
-        <div className="logo">
-          Loading reel<span className="dot">.</span>
-        </div>
-        <div className="loader-bar">
-          <span />
-        </div>
-      </div>
-    );
-  }
 
   return (
     <>
@@ -53,7 +24,10 @@ export default function App() {
         <Skills skills={data.skills} />
         <Projects projects={data.projects} onPlay={setActiveVideo} />
         <YouTube youtube={data.youtube} onPlay={setActiveVideo} />
-        <Contact profile={data.profile} />
+        <Contact
+          profile={data.profile}
+          formspreeEndpoint={data.formspreeEndpoint}
+        />
       </main>
       <Footer profile={data.profile} />
       {activeVideo && (
