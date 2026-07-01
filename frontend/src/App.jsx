@@ -43,6 +43,11 @@ export default function App() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  useEffect(() => {
+    const { name, role } = data.profile;
+    document.title = name && role ? `${name} — ${role}` : name || document.title;
+  }, [data.profile.name, data.profile.role]);
+
   return (
     <div className={editing ? "app editing" : "app"}>
       <Navbar profile={data.profile} />
