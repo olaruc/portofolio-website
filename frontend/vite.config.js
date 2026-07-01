@@ -1,10 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Site is served from a custom domain (cristianolaru.com) at the root.
-// If you ever go back to https://<user>.github.io/<repo>/, set VITE_BASE
-// or change this to "/portofolio-website/".
-const PROD_BASE = process.env.VITE_BASE || "/";
+// Repo name for GitHub Pages: https://<user>.github.io/<repo>/
+// Override via VITE_BASE (e.g. "/") if you later add a custom domain.
+const PROD_BASE = process.env.VITE_BASE || "/portofolio-website/";
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
