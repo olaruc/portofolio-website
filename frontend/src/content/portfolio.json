@@ -39,16 +39,7 @@
       "role": "Video Editor",
       "period": "2025-Present",
       "location": "Amsterdam",
-      "description": "I have worked as main video editor for content creators.",
-      "highlights": []
-    },
-    {
-      "id": 2,
-      "company": "Freelancer",
-      "role": "Video Editor",
-      "period": "2021 — 2023",
-      "location": "Remote",
-      "description": "I have worked as main video editor for wedding montages.",
+      "description": "",
       "highlights": []
     }
   ],
@@ -115,8 +106,17 @@
   "youtube": {
     "channelName": "Pity",
     "channelUrl": "https://www.youtube.com/@pityq",
-    "subscribers": "",
-    "description": "I break down editing techniques, share project files, and post behind-the-scenes of my work.",
-    "videos": []
+    "subscribers": "314",
+    "description": "I break down editing techniques, post behind-the-scenes of some of my works, with the client authorization. Beside this I also post gaming videos .",
+    "videos": [
+      {
+        "id": 1,
+        "title": "Showreel",
+        "views": "184",
+        "duration": "0:45",
+        "thumbnail": "https://i.ytimg.com/vi/8aIpyzOZyxc/hqdefault.jpg?sqp=-oaymwEqCKgBEF5IWvKriqkDHQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAG4AvMY&rs=AOn4CLBegNIwDsYGaiMREHlv49cX5WLZGg",
+        "url": "https://www.youtube.com/watch?v=8aIpyzOZyxc"
+      }
+    ]
   }
 }
