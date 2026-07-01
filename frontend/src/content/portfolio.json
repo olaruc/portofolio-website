@@ -1,5 +1,5 @@
 {
-  "formspreeEndpoint": "You Can reach me via mail or discord",
+  "formspreeEndpoint": "",
   "profile": {
     "name": "Cristian Olaru",
     "role": "Video Editor & Motion Designer",
@@ -24,7 +24,7 @@
       },
       {
         "platform": "Email",
-        "url": "mailto:pityq2@gmail.com"
+        "url": "mailto: pityq2@gmail.com"
       },
       {
         "platform": "Discord",
