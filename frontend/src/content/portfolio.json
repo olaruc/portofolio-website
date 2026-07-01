@@ -80,12 +80,11 @@
       "year": "2026",
       "description": "",
       "tags": [
-        "Music Video",
-        "Color Grade",
-        "Rhythm"
+        "Podcast",
+        "Pacing"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "thumbnail": "https://i.ytimg.com/vi/hH7nILyPE0g/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=hH7nILyPE0g",
       "featured": false
     },
     {
@@ -93,7 +92,7 @@
       "title": "Wedding Films",
       "category": "Event",
       "year": "2022",
-      "description": "An emotional wedding highlight film cut to a custom audio mix.",
+      "description": "I have worked as video editor for wedding fo",
       "tags": [
         "Wedding",
         "Storytelling",
