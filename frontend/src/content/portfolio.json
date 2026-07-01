@@ -28,17 +28,17 @@
       },
       {
         "platform": "Discord",
-        "url": "https://discord.com/channels/@o.cristian"
+        "url": "o.cristian"
       }
     ]
   },
   "experience": [
     {
       "id": 1,
-      "company": "Freelancing",
+      "company": "Freelancer",
       "role": "Video Editor",
-      "period": "2025 — present",
-      "location": "Remote",
+      "period": "2025-Present",
+      "location": "Amsterdam",
       "description": "",
       "highlights": []
     }
@@ -80,12 +80,13 @@
       "year": "2026",
       "description": "",
       "tags": [
-        "Podcast",
-        "Pacing"
+        "Music Video",
+        "Color Grade",
+        "Rhythm"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/hH7nILyPE0g/maxresdefault.jpg",
-      "videoUrl": "https://youtu.be/hH7nILyPE0g",
-      "featured": true
+      "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "featured": false
     },
     {
       "id": 6,
