@@ -8,6 +8,36 @@ Built with **React (Vite)** and **Framer Motion**. All content lives in one edit
 
 ## Editing your details
 
+There are two ways to edit.
+
+### A) In-browser edit mode (recommended)
+
+Open your live site (or `npm run dev`) with `?edit=1` in the URL — e.g.
+`https://olaruc.github.io/portofolio-website/?edit=1` — or press **Ctrl+E** to
+toggle. A side panel opens with fields for every section. Changes preview live
+on the page.
+
+To let the panel publish updates, do a one-time setup:
+
+1. Create a GitHub **fine-grained personal access token** at
+   https://github.com/settings/personal-access-tokens/new with:
+   - **Repository access:** only `olaruc/portofolio-website`
+   - **Permissions → Contents:** Read and write
+2. In the panel → **Setup** tab, paste the token and click **Save token**.
+3. Edit any fields you want, then click **Publish**. The panel commits the
+   updated `portfolio.json` to `main`, and the GitHub Actions workflow rebuilds
+   the site in about a minute.
+
+Notes:
+- The token is stored in your browser's `localStorage` only — it never leaves
+  your device except in requests to `api.github.com`.
+- Only someone with a valid write-scoped token can publish; the public site
+  contains no secret.
+- Drafts autosave locally as you type. **Discard changes** wipes the draft and
+  reloads the published content.
+
+### B) Direct file edit
+
 Open **`frontend/src/content/portfolio.json`** and edit:
 
 - `profile` — your name, role, tagline, bio, location, stats, and social links (YouTube / Instagram / LinkedIn / Email).
