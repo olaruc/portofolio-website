@@ -1,180 +1,104 @@
 {
-  "formspreeEndpoint": "",
+  "formspreeEndpoint": "You Can reach me via mail or discord",
   "profile": {
-    "name": "Your Name",
+    "name": "Cristian Olaru",
     "role": "Video Editor & Motion Designer",
     "tagline": "Cutting stories that move people.",
-    "location": "City, Country",
+    "location": "Amsterdam, Netherlands",
     "available": true,
-    "bio": "I'm a video editor with a love for rhythm, pacing, and the kind of cut you feel before you notice it. From punchy short-form content to cinematic brand films, I shape raw footage into stories that hold attention from the first frame to the last. I live in the timeline — color, sound design, motion graphics, and that one perfect transition.",
+    "bio": "Are you looking to level up your video quality?\nLook no further! 😎,\nI'm a video editor with 3 years of experience turning raw footage into compelling content. Whether it's fast-paced gaming montages, cinematic YouTube videos, or viral social media shorts, I combine technical expertise with creative storytelling to bring your vision to life. 🚀",
     "stats": [
-      { "label": "Years Editing", "value": "6+" },
-      { "label": "Projects Delivered", "value": "240+" },
-      { "label": "Views Generated", "value": "18M+" },
-      { "label": "Happy Clients", "value": "60+" }
+      {
+        "label": "Years Editing",
+        "value": "3+"
+      }
     ],
     "socials": [
-      { "platform": "YouTube", "url": "https://youtube.com/@yourchannel" },
-      { "platform": "Instagram", "url": "https://instagram.com/yourhandle" },
-      { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourhandle" },
-      { "platform": "Email", "url": "mailto:you@example.com" }
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@pityq"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/cristian-olaru-889376301/"
+      },
+      {
+        "platform": "Email",
+        "url": "mailto:pityq2@gmail.com"
+      },
+      {
+        "platform": "Discord",
+        "url": "o.cristian"
+      }
     ]
   },
-  "experience": [
-    {
-      "id": 1,
-      "company": "Studio Nova",
-      "role": "Senior Video Editor",
-      "period": "2022 — Present",
-      "location": "Remote",
-      "description": "Lead editor for brand campaigns and long-form documentaries. Built the post-production pipeline and mentored a team of three junior editors.",
-      "highlights": [
-        "Cut a documentary that crossed 4M views in its first month",
-        "Reduced average turnaround time by 35% with new proxy workflow",
-        "Established the studio's motion graphics style guide"
-      ]
-    },
-    {
-      "id": 2,
-      "company": "PixelForge Media",
-      "role": "Video Editor",
-      "period": "2020 — 2022",
-      "location": "City, Country",
-      "description": "Edited short-form social content and product launch videos for tech and lifestyle brands.",
-      "highlights": [
-        "Produced 200+ short-form videos across TikTok, Reels and Shorts",
-        "Developed reusable template packs that doubled output"
-      ]
-    },
-    {
-      "id": 3,
-      "company": "Freelance",
-      "role": "Video Editor & Motion Designer",
-      "period": "2018 — 2020",
-      "location": "Remote",
-      "description": "Worked directly with creators and small businesses on YouTube content, wedding films, and event recaps.",
-      "highlights": [
-        "Grew a recurring roster of 15+ creator clients",
-        "Specialized in fast-paced retention-focused YouTube editing"
-      ]
-    }
-  ],
+  "experience": [],
   "skills": [
     {
       "category": "Editing",
-      "items": ["Adobe Premiere Pro", "DaVinci Resolve", "Final Cut Pro", "Storytelling & Pacing"]
+      "items": [
+        "Adobe Premiere Pro",
+        "DaVinci Resolve",
+        "Final Cut Pro",
+        "Storytelling & Pacing"
+      ]
     },
     {
       "category": "Motion & VFX",
-      "items": ["After Effects", "Motion Graphics", "Keyframe Animation", "Compositing"]
+      "items": [
+        "After Effects",
+        "Motion Graphics",
+        "Keyframe Animation",
+        "Compositing"
+      ]
     },
     {
       "category": "Color & Sound",
-      "items": ["Color Grading", "Sound Design", "Audio Mixing", "LUT Creation"]
-    },
-    {
-      "category": "Workflow",
-      "items": ["Proxy Workflows", "Frame.io Review", "Asset Management", "Client Collaboration"]
+      "items": [
+        "Color Grading",
+        "Sound Design",
+        "Audio Mixing",
+        "LUT Creation"
+      ]
     }
   ],
   "projects": [
     {
-      "id": 1,
-      "title": "Echoes of the City",
-      "category": "Documentary",
-      "year": "2024",
-      "description": "A 12-minute documentary on urban street artists. Handled the full edit, color grade, and sound design.",
-      "tags": ["Documentary", "Color Grade", "Sound Design"],
-      "thumbnail": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "featured": true
-    },
-    {
-      "id": 2,
-      "title": "Neon Drive — Brand Film",
-      "category": "Commercial",
-      "year": "2024",
-      "description": "High-energy 60-second brand film for an automotive client, blending live action with motion graphics.",
-      "tags": ["Commercial", "Motion Graphics", "VFX"],
-      "thumbnail": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "featured": true
-    },
-    {
-      "id": 3,
-      "title": "Summit — Product Launch",
-      "category": "Tech",
-      "year": "2023",
-      "description": "Launch video for a SaaS product. Crisp screen recordings, kinetic typography, and a punchy edit.",
-      "tags": ["Product", "Kinetic Type", "Editing"],
-      "thumbnail": "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=1200&q=80",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "featured": true
-    },
-    {
-      "id": 4,
-      "title": "Wanderlust — Travel Series",
-      "category": "Social",
-      "year": "2023",
-      "description": "A series of cinematic travel reels optimized for vertical platforms and retention.",
-      "tags": ["Short-form", "Travel", "Vertical"],
-      "thumbnail": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "featured": false
-    },
-    {
       "id": 5,
-      "title": "Pulse — Music Video",
-      "category": "Music",
-      "year": "2022",
-      "description": "Beat-synced music video with heavy color work and rhythmic cutting.",
-      "tags": ["Music Video", "Color Grade", "Rhythm"],
+      "title": "The Chooches Podcast",
+      "category": "Podcast",
+      "year": "2026",
+      "description": "",
+      "tags": [
+        "Music Video",
+        "Color Grade",
+        "Rhythm"
+      ],
       "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
       "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "featured": false
     },
     {
       "id": 6,
-      "title": "Forever — Wedding Film",
+      "title": "Wedding Films",
       "category": "Event",
       "year": "2022",
       "description": "An emotional wedding highlight film cut to a custom audio mix.",
-      "tags": ["Wedding", "Storytelling", "Audio"],
+      "tags": [
+        "Wedding",
+        "Storytelling",
+        "Audio"
+      ],
       "thumbnail": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "videoUrl": "",
       "featured": false
     }
   ],
   "youtube": {
-    "channelName": "Your Channel",
-    "channelUrl": "https://youtube.com/@yourchannel",
-    "subscribers": "85K",
+    "channelName": "Pity",
+    "channelUrl": "https://www.youtube.com/@pityq",
+    "subscribers": "",
     "description": "I break down editing techniques, share project files, and post behind-the-scenes of my work.",
-    "videos": [
-      {
-        "id": 1,
-        "title": "How I Edit Cinematic B-Roll",
-        "views": "1.2M",
-        "duration": "12:04",
-        "thumbnail": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80",
-        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      },
-      {
-        "id": 2,
-        "title": "5 Transitions That Look Expensive",
-        "views": "880K",
-        "duration": "08:31",
-        "thumbnail": "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1200&q=80",
-        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      },
-      {
-        "id": 3,
-        "title": "Color Grading in DaVinci — Full Walkthrough",
-        "views": "640K",
-        "duration": "18:45",
-        "thumbnail": "https://images.unsplash.com/photo-1502136969935-8d8eef54d77b?auto=format&fit=crop&w=1200&q=80",
-        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      }
-    ]
+    "videos": []
   }
 }
